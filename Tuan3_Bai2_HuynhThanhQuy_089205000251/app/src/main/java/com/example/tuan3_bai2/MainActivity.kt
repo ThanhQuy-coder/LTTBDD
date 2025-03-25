@@ -37,6 +37,7 @@ import androidx.navigation.compose.rememberNavController
 import androidx.navigation.compose.composable
 import com.example.tuan3_bai2.ui.theme.Tuan3_Bai2Theme
 import kotlinx.coroutines.delay
+import com.example.tuan3_bai2.R
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -406,6 +407,6 @@ fun GreetingPreview() {
 //        Scene1()
 //        Scene2()
 //        Scene3()
-//        Scene4()
+        Scene4()
     }
 }
